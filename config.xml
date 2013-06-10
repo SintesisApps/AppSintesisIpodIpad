@@ -27,7 +27,7 @@
 
     <preference name="phonegap-version" value="2.7.0" />
     <preference name="orientation"      value="portrait" />
-    <preference name="target-device"    value="handset" />
+    <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="true" />
 	<preference name="webviewbounce" value="false" />
 	<preference name="UIWebViewBounce" value="true" />
@@ -48,6 +48,11 @@
 
     <gap:splash src="imagenes/splashscreen/ldpiv.png"    gap:platform="ios" width="320" height="480" /> 
     <gap:splash src="imagenes/splashscreen/splash_vertical1.png" gap:platform="ios" width="640" height="1136" />
+	<gap:splash src="imagenes/splashscreen/Default-Portrait@2x~ipad.png"     gap:platform="ios"     width="1536" height="2008" />
+<gap:splash src="imagenes/splashscreen/Default-Landscape@2x~ipad.png"     gap:platform="ios"     width="2048" height="1496" />
+<gap:splash src="imagenes/splashscreen/mdpi.png"      gap:platform="ios"     width="1024" height="768" />
+	<gap:splash src="imagenes/splashscreen/mdpi_v.png"      gap:platform="ios"     width="768" height="1024" />
+
     <gap:splash src="imagenes/splashscreen/ldpi.png" gap:platform="winphone" />
 	
 	<plugin name="NetworkStatus" value="CDVConnection" />
